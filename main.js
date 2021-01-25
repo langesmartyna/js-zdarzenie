@@ -1,9 +1,9 @@
-let myHeading = document.querySelector("buttom");
+let myHeading = document.querySelector("button");
 
 console.log(myHeading);
 
 
-document.querySelector("buttom").onclick = function() {
+myHeading.onclick = function() {
 
 alert("Klik działa!");
 
